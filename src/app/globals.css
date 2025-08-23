@@ -16,6 +16,11 @@ body {
   overflow-x: hidden;
 }
 
+main {
+  padding: 1rem;
+  min-height: 100vh;
+}
+
 body {
   color: var(--foreground);
   background: var(--background);

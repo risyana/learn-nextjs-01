@@ -26,7 +26,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
-        <h1>My lovely apps</h1>
+        <Link href="/">
+          <h1>My lovely apps</h1>
+        </Link>
         <nav>
           <Link href="/dashboard">Dashboard</Link> |{" "}
           <Link href="/dashboard/settings">Settings</Link> |{" "}

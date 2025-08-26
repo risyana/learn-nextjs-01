@@ -34,6 +34,7 @@ export default function RootLayout({
           <Link href="/dashboard/settings">Settings</Link> |{" "}
           <Link href="/about">About</Link> |{" "}
           <Link href="/blog">Blog</Link> |{" "}
+          <Link href="/blog-swr">Blog swr</Link> |{" "}
         </nav>
         <main>
           {children}
